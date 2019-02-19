@@ -1,6 +1,8 @@
 # Doston Hamrakulov
 
 ## Validating XML file against XSD file in python or java
+Developing XML validation classes in Java and Python againts XSD files:
+
 
 ### Programming languages and frameworks
 ```[Python, Java]
