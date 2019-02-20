@@ -1,27 +1,40 @@
 #Doston Hamrakulov
 
-from lxml import etree
+import sys,xml.sax,xml.sax.handler
 
-def validate(xmlparser_xsd, xml_data):
-    try:
-        etree.fromstring(xml_data, xmlparser_xsd)
-        return True
-    except etree.XMLSchemaError:
-        return False
+class SaxHandler(xml.sax.handler.ContentHandler):  
+  def __init__(self):  
+    self.print_content = 0  
 
-# defining path of xsd file
-xml_schema_file = "xsd_1.xsd"
-with open(xml_schema_file, 'r') as xml_schema_file:
-    schema_root = etree.XML(xml_schema_file.read())
+  def startElement(self,name,attrs):  
+    if name == "deliveries":    
+      print "<html><head><title>Deliveries</title></head>"    
+      print "<body><h1>Deliveries</h1><hr>"    
+      print '\n<table border="1"><tr><th>Number</th><th>Article</th><th>Price</th><th>Supplier</th></tr>'  
+    elif name == "article":    
+      self.id = attrs.getValueByQName("id")    
+      print "<tr><td>%s</td>"%attrs.getValueByQName("id"),    
+      self.print_content = 0  
+    elif name == "name" or name == "price" or name == "supplier":    
+      print "<td>",    
+      self.print_content = 1  
 
-schema = etree.XMLSchema(schema_root)
-xmlparser = etree.XMLParser(schema=schema)
+  def endElement(self,name):  
+    if name == "deliveries":    
+      print "\n</table>\n</body>\n</html>"
+    elif name == "article":    
+      print "</tr>"  
+    elif name == "name" or name == "price" or name == "supplier":    
+      print "</td>",    
+      self.print_content = 0  
 
-#defining path of xml file
-xml_file = "xml_1.xml"
-with open(xml_file, 'r') as xml_file:
-    xml_data = xml_file.read()
-    if validate(xmlparser, xml_data):
-        print ("XML file is valid against XSD Document")
-    else:
-        print ("Invalid. Please, find error description below\n")
+  def characters(self,content):  
+    if self.print_content:    
+      print content,
+
+if len(sys.argv) != 2:  
+  print "Usage: python %s <file>.xml"%sys.argv[0]  
+  sys.exit(1)
+p = xml.sax.make_parser()
+prog,file = sys.argv
+xml.sax.parse(file,SaxHandler())
