@@ -1,6 +1,7 @@
-<deliveries xmlns="urn:myspace:deliveries" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:myspace:deliveries lieferungen.xsd">
-<script/>
-<script/>
+<?xml version="1.0" encoding="UTF-8"?>
+<deliveries xmlns="urn:myspace:deliveries" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="urn:myspace:deliveries xsd_1.xsd">
 <article id="3526">
 <name>apple</name>
 <price unitprice="true">8.97</price>

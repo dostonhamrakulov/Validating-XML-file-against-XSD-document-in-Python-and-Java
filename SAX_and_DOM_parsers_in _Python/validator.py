@@ -22,6 +22,6 @@ xml_file = "xml_1.xml"
 with open(xml_file, 'r') as xml_file:
     xml_data = xml_file.read()
     if validate(xmlparser, xml_data):
-        print "XML file is valid against XSD Document"
+        print ("XML file is valid against XSD Document")
     else:
-        print "Invalid. Please, find error description below\n"
+        print ("Invalid. Please, find error description below\n")
