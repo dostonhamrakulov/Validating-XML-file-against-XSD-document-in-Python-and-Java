@@ -1,6 +1,8 @@
 # Doston Hamrakulov
 
-## Validating XML file against XSD file in python or java
+## Working with XML Parsers: SAX and DOM parsers
+
+There are ready validated XML and XSD files and we will use them to perform parsing operation.
 
 ### Programming languages and frameworks
 ```[Python, Java]
