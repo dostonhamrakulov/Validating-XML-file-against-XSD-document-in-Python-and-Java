@@ -84,31 +84,7 @@ An environment variable JENA_HOME is used by all the command line tools to confi
 **Doston Hamrakulov**
 >*Software Engineer, Web Developer, Freelancer*
 
-### System Requirements For Debian/Ubuntu:
 
-1. Dependencies
-
-```[sudo apt-get install libxml2-dev libxslt-dev python-dev]
-// sudo apt-get install libxml2-dev libxslt-dev python-dev
-```
-
-2.package
-```[sudo apt-get build-dep python3-lxml]
-// sudo apt-get build-dep python3-lxml
-```
-
-3. Python library lxml
-```[pip install lxml]
-// pip install lxml
-```
-
-
-
-
-I upzipped .tar.gz file in /home/doston/Partation/Validating-XML-file-against-XSD-document-in-Python-and-Java/RDF_Jena_framework/apache-jena-3.10.0
-
-export JENA_HOME=/home/doston/Partation/Validating-XML-file-against-XSD-document-in-Python-and-Java/RDF_Jena_framework/apache-jena-3.10.0
-
-
+## Enjoyin in open-source community
 
 
