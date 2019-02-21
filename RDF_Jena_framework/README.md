@@ -54,6 +54,15 @@ Now, We can go on some examples:
    2. Write java code
    3. Solution on BookTrans.java
 
+4. Write a Java program using the Jena framework, which displays where authors and translators live
+   1. We use given RDF files.
+   2. Write java code
+
+5. Write a Java program using the Jena framework, which displays whether there are translators who live in the same city like an author whose book they translated.
+   1. We use given RDF files.
+   2. Write java code
+
+
 
 
 
