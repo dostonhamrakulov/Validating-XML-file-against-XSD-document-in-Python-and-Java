@@ -17,13 +17,16 @@ An environment variable JENA_HOME is used by all the command line tools to confi
 
 **On Linux / Mac**
 
-    * export JENA_HOME=the directory you downloaded Jena to
-    * export PATH=$PATH:$JENA_HOME/bin
-    * sparql --version
+* export JENA_HOME=the directory you downloaded Jena to
+* export PATH=$PATH:$JENA_HOME/bin
+* sparql --version
+
+
 **On Linux / Mac**
-    * SET JENA_HOME =the directory you downloaded Jena to
-    * SET PATH=%PATH%;%JENA_HOME%\bat
-    * sparql.bat --version
+
+* SET JENA_HOME =the directory you downloaded Jena to
+* SET PATH=%PATH%;%JENA_HOME%\bat
+* sparql.bat --version
 
 
 **Basic Steps**
@@ -38,7 +41,8 @@ An environment variable JENA_HOME is used by all the command line tools to confi
 9. Compile and Run
 
 
-Now, We can go on some examples:
+
+**Now, We can go on some examples:**
 1. Write a Java program using the Jena framework, which reads the information about the authors and displays it
    1. We use given RDF files.
    2. Write java code
