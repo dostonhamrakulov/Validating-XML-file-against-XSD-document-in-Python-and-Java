@@ -15,15 +15,18 @@ Developing XML validation classes in Java and Python againts XSD files:
 
 An environment variable JENA_HOME is used by all the command line tools to configure the class path automatically for you. You can set this up as follows:
 
-*** On Linux / Mac ***
+**On Linux / Mac**
 
     * export JENA_HOME=the directory you downloaded Jena to
     * export PATH=$PATH:$JENA_HOME/bin
     * sparql --version
-*** On Linux / Mac ***
+**On Linux / Mac**
     * SET JENA_HOME =the directory you downloaded Jena to
     * SET PATH=%PATH%;%JENA_HOME%\bat
     * sparql.bat --version
+
+
+
 
 ### Programming languages and frameworks
 ```[Python, Java]
