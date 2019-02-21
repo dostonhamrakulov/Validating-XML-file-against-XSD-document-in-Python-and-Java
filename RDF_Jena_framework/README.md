@@ -42,7 +42,17 @@ Now, We can go on some examples:
 1. Write a Java program using the Jena framework, which reads the information about the authors and displays it
    1. We use given RDF files.
    2. Write java code
+   3. Solution on Viewauthor.java
 
+2. Write a Java program using the Jena framework, that displays which author wrote which book
+   1. We use given RDF files.
+   2. Write java code
+   3. Solution on Merge.java
+
+3. Write a Java program using the Jena framework, which additionally shows which author translated which book.
+   1. We use given RDF files.
+   2. Write java code
+   3. Solution on BookTrans.java
 
 
 
