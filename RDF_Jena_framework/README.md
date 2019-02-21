@@ -26,6 +26,25 @@ An environment variable JENA_HOME is used by all the command line tools to confi
     * sparql.bat --version
 
 
+**Basic Steps**
+1. Download Java SDK
+2. Download Jena framework
+3. Set PATH, CLASSPATH and JENA_HOME environment variables
+4. Open an IDE such as Eclipse, NetBeans or IntelliJ
+5. Create a new Java Application Project
+6. Add external Jena libraries and javadoc to project
+7. Autogenerate a Class Litera.java from the Litera.rdf via jena.schemagen
+8. Create java sourcecode files
+9. Compile and Run
+
+
+Now, We can go on some examples:
+1. Write a Java program using the Jena framework, which reads the information about the authors and displays it
+   1. We use given RDF files.
+   2. Write java code
+
+
+
 
 
 ### Programming languages and frameworks
