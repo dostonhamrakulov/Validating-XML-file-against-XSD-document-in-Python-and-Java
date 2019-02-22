@@ -4,6 +4,12 @@
 Here, we will see:
 > XML File validations:
   >> XML file validation againts XSD in Java
+  >> XML file validation againts XSD in Java
+> HTTP Protocol requests in Python
+  >> Creating connection
+  >> GET method request
+  >> POST method request
+> 
 Developing XML validation classes in Java and Python againts XSD files:
 
 
