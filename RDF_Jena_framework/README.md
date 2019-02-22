@@ -1,7 +1,7 @@
 # Doston Hamrakulov
 
-## Validating XML file against XSD file in python or java
-Developing XML validation classes in Java and Python againts XSD files:
+## Working with RDF files and making queries with Jena Framework over RDF files in Java
+Here, we make queries on RDF file by using Jena Framework in Java. We have different RDF files and queries done to retieve specific information. Each queries description is given below.
 
 ## Installing Jena in Ubuntu ##
 
