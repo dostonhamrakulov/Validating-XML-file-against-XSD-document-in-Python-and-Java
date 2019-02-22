@@ -2,19 +2,19 @@
 
 ## Working with RDF, XSD and XML files in Python and Java
 Here, we will see:
-> XML File validations:
-  >> XML file validation againts XSD in Java
-  >> XML file validation againts XSD in Java
-> HTTP Protocol requests in Python
-  >> Creating connection
-  >> GET method request
-  >> POST method request
-> Queries on RDF files by using Jena Framework
-  >> Different RDF files
-  >> Different queries
-  >> Jena Framework installation guide
-  >> Implementation in Java
-> AMD
+* XML File validations:
+  * XML file validation againts XSD in Java
+  * XML file validation againts XSD in Java
+* HTTP Protocol requests in Python
+  * Creating connection
+  * GET method request
+  * POST method request
+* Queries on RDF files by using Jena Framework
+  * Different RDF files
+  * Different queries
+  * Jena Framework installation guide
+  * Implementation in Java
+* AMD
 
 ### Programming languages and frameworks
 ```[Python, Java]
