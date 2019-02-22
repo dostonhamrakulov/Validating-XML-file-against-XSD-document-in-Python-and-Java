@@ -3,7 +3,7 @@
 ## Working with RDF, XSD and XML files in Python and Java
 Here, we will see:
 * XML File validations:
-  * XML file validation againts XSD in Java
+  * XML file validation againts XSD in Python
   * XML file validation againts XSD in Java
 * HTTP Protocol requests in Python
   * Creating connection
