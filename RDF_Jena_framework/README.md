@@ -3,6 +3,13 @@
 ## Working with RDF files and making queries with Jena Framework over RDF files in Java
 Here, we make queries on RDF file by using Jena Framework in Java. We have different RDF files and queries done to retieve specific information. Each queries description is given below.
 
+## Overview:
+* Queries on RDF files by using Jena Framework
+  * Different RDF files
+  * Different queries
+  * Jena Framework installation guide
+  * Implementation in Java
+
 ## Installing Jena in Ubuntu ##
 
 * Download Jena framework from:
