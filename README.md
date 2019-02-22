@@ -9,9 +9,12 @@ Here, we will see:
   >> Creating connection
   >> GET method request
   >> POST method request
-> 
-Developing XML validation classes in Java and Python againts XSD files:
-
+> Queries on RDF files by using Jena Framework
+  >> Different RDF files
+  >> Different queries
+  >> Jena Framework installation guide
+  >> Implementation in Java
+> AMD
 
 ### Programming languages and frameworks
 ```[Python, Java]
