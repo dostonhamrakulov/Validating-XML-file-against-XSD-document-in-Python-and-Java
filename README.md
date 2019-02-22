@@ -1,6 +1,9 @@
 # Doston Hamrakulov
 
-## Validating XML file against XSD file in python or java
+## Working with RDF, XSD and XML files in Python and Java
+Here, we will see:
+> XML File validations:
+  >> XML file validation againts XSD in Java
 Developing XML validation classes in Java and Python againts XSD files:
 
 
