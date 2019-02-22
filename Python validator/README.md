@@ -1,7 +1,7 @@
 # Doston Hamrakulov
 
 ## Validating XML file against XSD file in Python:
-Here, i have created XML validator class to validate XML files againts XSD.
+Here, i have created XML validator class to validate XML files againts XSD. I have used only one xml and xsd file to implement validation process but you can upload xsd and xml into a directory and pass the directory of xml and xsd files into python to use your own xsd and xml files.
 
 ## Overview:
 Here, we will see:
